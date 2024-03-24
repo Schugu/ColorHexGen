@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    height: 350px;
+    border: 2px solid black;
+    padding: 20px;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pantalla {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #C21023;
+}
+
+.btnAndText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+}
+.textColor {
+    font-weight: 600;
+    font-size: 2em;
+}
+.boton {
+    padding: 10px;
+    user-select: none;
+    width: 30%;
+    font-size: 1.5em;
+    cursor: grab;
+}
+
+.container2 {
+    width: 50%;
+    height: auto;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.article{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.colorsito {
+    width: 30%;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    height: 60px;
+}
+
+.codigo { 
+    font-size: 2em;
+    font-weight: 600;
+}
