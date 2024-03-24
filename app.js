@@ -6,6 +6,7 @@ const pantalla = document. querySelector('.pantalla');
 let primerClick = false; 
 let colorActual = null; 
 
+// Función que genera un número aleatorio y lo asigna. 
 function genColHexAleat () {
     let digitos = '0123456789ABCDEF';
     let colorHex = '#';
@@ -16,8 +17,7 @@ function genColHexAleat () {
     }
     return colorHex;
 }
-
-
+// Función que crea un historial de colores.
 function crearHistorial (colorAleatorio) {
     let container = document.querySelector('.container2');
     let article = document.createElement('article');
@@ -39,7 +39,7 @@ function crearHistorial (colorAleatorio) {
         container.firstElementChild.remove();
     }
 }
-
+// Función que agrega el evento de click sobre el botón de generar colores.
 boton.addEventListener('click', function() {
    // Si es el primer clic, establecemos el color actual como el color predefinido
     if (!primerClick) {

@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 .main {
     display: flex;
     flex-direction: column;
@@ -13,7 +12,6 @@
     height: auto;
     padding: 20px;
 }
-
 .container {
     width: 50%;
     height: 350px;
@@ -25,14 +23,12 @@
     flex-direction: column;
     align-items: center;
 }
-
 .pantalla {
     width: 100%;
     height: 200px;
     border: 1px solid black;
     background-color: #C21023;
 }
-
 .btnAndText {
     display: flex;
     align-items: center;
@@ -53,7 +49,6 @@
     font-size: 1.5em;
     cursor: grab;
 }
-
 .container2 {
     width: 50%;
     height: auto;
@@ -61,12 +56,10 @@
     margin: 20px;
     padding: 20px;
     gap: 20px;
-
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
-
 .article{
     width: 100%;
     border: 1px solid black;
@@ -76,7 +69,6 @@
     gap: 20px;
     padding: 20px;
 }
-
 .colorsito {
     width: 30%;
     border: 1px solid black;
@@ -84,7 +76,6 @@
     background-color: black;
     height: 60px;
 }
-
 .codigo { 
     font-size: 2em;
     font-weight: 600;
