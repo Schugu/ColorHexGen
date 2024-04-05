@@ -1,5 +1,7 @@
 <h1 align='center'>🌟 Página generadora de colores hexadecimales aleatorios 🎨🌟</h1>
 
+> Practica de HTML, CSS y JavaScript. ✨
+
 🎯 Objetivo: Crear una página que genere aleatoriamente colores hexadecimales mediante JavaScript. 
 
 Esta idea de proyecto está inspirada en el curso "JavaScript para Manipulación del DOM" de FreeCodeCamp Español. Aunque me guié por la idea presentada en el curso, he desarrollado esta página generadora de colores hexadecimales aleatorios a mi manera, añadiendo mis propios enfoques y personalizaciones. Puedes encontrar el curso en este enlace [aquí](https://www.youtube.com/watch?v=koiPxFFiqJ4 "Click aquí").
